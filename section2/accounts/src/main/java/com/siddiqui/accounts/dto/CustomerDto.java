@@ -7,9 +7,8 @@ import lombok.Setter;
 @Getter
 @Setter
 @Data
-public class AccountsDto
-{
-    private Long accountNumber;
-    private String accountType;
-    private String branchAddress;
+public class CustomerDto {
+    private String name;
+    private String email;
+    private String mobileNumber;
 }

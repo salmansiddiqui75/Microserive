@@ -1,4 +1,8 @@
 package com.siddiqui.accounts.service;
 
-public interface IAccountsService {
+import com.siddiqui.accounts.dto.CustomerDto;
+
+public interface IAccountsService
+{
+    public void createAccount(CustomerDto customerDto);
 }
