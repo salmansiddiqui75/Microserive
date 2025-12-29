@@ -1,5 +1,6 @@
 package com.siddiqui.accounts.entity;
 
+import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -10,6 +11,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
 public class Accounts extends BaseEntity
 {
     private Long customerId;
